@@ -1,0 +1,51 @@
+body {
+    position: relative;
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+
+.gb-footer {
+    padding-top: 36px;
+    padding-bottom: 36px;
+    margin-top: 36px;
+    color: #777; 
+    text-align: center;
+    border-top: 1px solid #e5e5e5;
+}
+
+.gb-footer-links {
+    padding-left: 0;
+    margin-top: 18px;
+    color: #999;
+}
+
+.gb-footer-links li {
+    display: inline;
+    padding: 0 2px;
+}
+
+.gb-footer-links li:fisrt-child {
+    padding-left: 0;
+}
+
+.gb-beian {
+    color: #777;
+}
+
+@media (min-width: 768px) {.gb-footer p{margin-bottom: 0;}}
+
+.gb-carousel-image {
+    width: 100%;
+    height: auto;
+}
+
+.gb-sudden-box {
+    padding-top: 18px;
+}
+
+.gb-sudden-image {
+    width: 168px;
+    height: 168px;
+}
