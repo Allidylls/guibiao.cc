@@ -1,5 +1,5 @@
 module.exports = (app, partials) => {
-    app.get('/', (req, res) => {
-        res.render('index.html', {partials});
+    app.get(['/', '/index.html', '/home.html'] , (req, res) => {
+        res.render('home.html', {partials});
     });
 };

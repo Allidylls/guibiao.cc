@@ -7,7 +7,7 @@ app.use(express.static(__dirname + '/public'));
 app.set('views', __dirname + '/views');
 app.engine('html', require('hogan-express'));
 
-var partials = {
+const partials = {
     header: 'partials/header',
     footer: 'partials/footer'
 };
