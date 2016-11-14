@@ -14,7 +14,7 @@ var partials = {
 
 require('./routes')(app, partials);
 
-app.listion(80, () => {
-    console.info('Listening port %s', app.get('port'));
+app.listen(8000, () => {
+    console.info('Listening port 8000');
 });
 
