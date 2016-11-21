@@ -7,12 +7,12 @@ app.use(express.static(__dirname + '/public'));
 app.set('views', __dirname + '/views');
 app.engine('html', require('hogan-express'));
 
-const partials = {
+app.locals.partials = {
     header: 'partials/header',
     footer: 'partials/footer'
 };
 
-require('./routes')(app, partials);
+require('./routes')(app);
 
 app.listen(8000, () => {
     console.info('Listening port 8000');

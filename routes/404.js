@@ -1,5 +1,5 @@
-module.exports = (app, partials) => {
+module.exports = (app) => {
     app.get('/:slug', (req, res) => {
-        res.status(404).render('404.html', {partials});
+        res.status(404).render('404.html');
     });
 };

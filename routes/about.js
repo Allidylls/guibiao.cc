@@ -1,6 +1,6 @@
-module.exports = (app, partials) => {
+module.exports = (app) => {
     app.get('/about', (req, res) => {
         res.locals.about_active = true;
-        res.render('about.html', {partials});
+        res.render('about.html');
     });
 };

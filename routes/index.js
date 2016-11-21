@@ -1,9 +1,9 @@
-module.exports = (app, partials) => {
-    require('./home')           (app, partials);
-    require('./guibiao')        (app, partials);
-    require('./analemmatic')    (app, partials);
-    require('./traditional')    (app, partials);
-    require('./sudden')         (app, partials);
-    require('./about')          (app, partials);
-    require('./404')            (app, partials);
+module.exports = (app) => {
+    require('./home')(app);
+    require('./guibiao')(app);
+    require('./analemmatic')(app);
+    require('./traditional')(app);
+    require('./sudden')(app);
+    require('./about')(app);
+    require('./404')(app);
 };
