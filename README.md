@@ -1,2 +1,2 @@
-# guibiao.cc
-A website template with Express.js
+# nohexboot
+Node Hogan EXpress BOOtstrap Template
