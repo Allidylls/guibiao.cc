@@ -1,11 +1,16 @@
 {
-    "name": "guibiao.cc",
-    "version": "1.0.0",
-    "description": "A website template with Express",
+    "name": "nohexboot",
+    "version": "1.1.0",
+    "description": "NOde Hogan EXpress BOOtstrap Template",
     "main": "app.js",
     "scripts": {},
+    "keywords": ["nohexboot", "node", "express", "hogan", "bootstrap", "website", "template"],
     "author": "allidylls",
     "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/allidylls/nohexboot"
+    },
     "dependencies": {
         "body-parser": "^1.15.2",
         "compression": "^1.6.2",
