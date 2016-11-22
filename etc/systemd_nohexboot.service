@@ -1,0 +1,11 @@
+[Unit]
+Description=nohexboot.xxx
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/path/to/node /path/to/nohexboot/app.js
+
+[Install]
+WantedBy=multi-user.target
+
