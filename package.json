@@ -3,7 +3,9 @@
     "version": "1.1.0",
     "description": "NOde Hogan EXpress BOOtstrap Template",
     "main": "app.js",
-    "scripts": {},
+    "scripts": {
+        "start": "node app.js"
+    },
     "keywords": ["nohexboot", "node", "express", "hogan", "bootstrap", "website", "template"],
     "author": "allidylls",
     "license": "MIT",
